@@ -1,6 +1,6 @@
 # Tokenised Equities Mock Ledger
 
-Built by Fahad K V, ACCA finalist and senior auditor (5 years of external audit, 4 at KPMG), as a hands-on exercise in the accounting and controls for tokenised assets. All data is synthetic and the accounting policy is an illustrative assumption, not any real company's model.
+Built by Fahad K V, ACCA professional and senior auditor (5 years of external audit, 4 at KPMG), as a hands-on exercise in the accounting and controls for tokenised assets. All data is synthetic and the accounting policy is an illustrative assumption, not any real company's model.
 
 A small model of the accounting and reconciliation for an issuer of tokens backed 1:1 by listed shares, in Excel and in Python.
 
