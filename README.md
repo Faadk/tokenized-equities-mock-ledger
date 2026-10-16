@@ -1,8 +1,31 @@
 # Tokenised Equities Mock Ledger
 
-Built by Fahad K V, ACCA professional and senior auditor (5 years of external audit, 4 at KPMG), as a hands-on exercise in the accounting and controls for tokenised assets. All data is synthetic and the accounting policy is an illustrative assumption, not any real company's model.
+Built by Fahad K V, ACCA finalist and ex-KPMG audit senior (5 years of external audit, 4 at KPMG UK audit), as a hands-on exercise in the accounting and controls for tokenised assets. All data is synthetic and the accounting policy is an illustrative assumption, not any real company's model.
 
 A small model of the accounting and reconciliation for an issuer of tokens backed 1:1 by listed shares, in Excel and in Python.
+
+## Start here
+1. Open `tokenized_equities_ledger.xlsx` and read the README tab, then Recon and Tests, where the three breaks show up in red.
+2. Compare with `tokenized_equities_ledger_corrected.xlsx`, where every check clears apart from normal T+1 timing items.
+3. The Python version and `recon_report.md` show the same logic as code.
+
+## Result: before and after
+
+<img width="1089" height="318" alt="recon-before" src="https://github.com/user-attachments/assets/276f3af9-f4e5-4eff-803f-06e18ca88021" />
+
+*Before: three breaks flagged on the Recon tab.*
+
+
+<img width="1067" height="291" alt="recon-after" src="https://github.com/user-attachments/assets/e3c18b86-febf-41cd-ad1e-04f98ff78944" />
+
+*After: corrections posted, every check clears apart from normal T+1 timing.*
+
+## How the tests catch each break
+
+<img width="1174" height="551" alt="tests-before png" src="https://github.com/user-attachments/assets/36823acf-bb1a-4f78-8fb8-d91e11177aca" />
+
+*Each break is caught by a different test: completeness, accuracy and custodian confirmation.*
+
 
 ## Files
 | File | What it is |
@@ -36,3 +59,6 @@ A small model of the accounting and reconciliation for an issuer of tokens backe
 
 ## Natural next steps
 Add dividends and splits, a rebase event, an FX layer and a bank reconciliation, then write the accounting policy memo that explains each judgement above.
+
+## About
+Fahad K V | linkedin.com/in/kvfahad
